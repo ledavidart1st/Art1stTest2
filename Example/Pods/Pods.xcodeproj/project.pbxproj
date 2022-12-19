@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		31760328361DCF7354A4517197F7EC3B /* Art1stTest2-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 17761BC60BE4D1FDE04545194F14BDE5 /* Art1stTest2-dummy.m */; };
-		464B4C1D2950605A004A32BF /* MyLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464B4C1C2950605A004A32BF /* MyLogger.swift */; };
+		464B4C1F29507394004A32BF /* MyLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464B4C1E29507394004A32BF /* MyLogger.swift */; };
 		65EBBD72C6E52C82071A92737EA2FDCD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		76973F416E93E542A13AEECF9C20C0BB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		7DC8484A287AA557D67021050143D9C2 /* Pods-Art1stTest2_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C7F568517C36BDEA38C0F7BCDE19B283 /* Pods-Art1stTest2_Example-dummy.m */; };
@@ -48,7 +48,7 @@
 		35875D6B547BFA9F7ACF8C4D6A86BDD6 /* Art1stTest2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Art1stTest2.debug.xcconfig; sourceTree = "<group>"; };
 		39ABE398823AC8041661877D4FDA427F /* Pods-Art1stTest2_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Art1stTest2_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		3BEECBD678EDC6B0799DE1C13D667684 /* Pods-Art1stTest2_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Art1stTest2_Example"; path = Pods_Art1stTest2_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		464B4C1C2950605A004A32BF /* MyLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyLogger.swift; sourceTree = "<group>"; };
+		464B4C1E29507394004A32BF /* MyLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyLogger.swift; sourceTree = "<group>"; };
 		47507C8D77C0B61376F6E9374E50870D /* Art1stTest2-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Art1stTest2-prefix.pch"; sourceTree = "<group>"; };
 		56A0BA184974E067B15C1BD24219B3CA /* Art1stTest2-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Art1stTest2-umbrella.h"; sourceTree = "<group>"; };
 		5F1B177FC21E029B4956AA0969E928D5 /* Pods-Art1stTest2_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Art1stTest2_Tests-dummy.m"; sourceTree = "<group>"; };
@@ -206,9 +206,9 @@
 		E4D41F015D0679B0E3C7049AEA67264D /* Art1stTest2 */ = {
 			isa = PBXGroup;
 			children = (
-				464B4C1C2950605A004A32BF /* MyLogger.swift */,
 				10CE2E6F09376288574288473650E908 /* Pod */,
 				E29470E414AC687A72DAC7F5EA7B923F /* Support Files */,
+				464B4C1E29507394004A32BF /* MyLogger.swift */,
 			);
 			name = Art1stTest2;
 			path = ../..;
@@ -373,7 +373,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				31760328361DCF7354A4517197F7EC3B /* Art1stTest2-dummy.m in Sources */,
-				464B4C1D2950605A004A32BF /* MyLogger.swift in Sources */,
+				464B4C1F29507394004A32BF /* MyLogger.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
